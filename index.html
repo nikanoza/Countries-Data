@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Get Country Data</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Where is the world</h1>
+      <div class="mode-container">
+        <ion-icon class="logo" name="moon-outline"></ion-icon>
+        <p class="mode-text">Dark Mode</p>
+      </div>
+    </header>
+    <main>
+      <form action="#" class="container">
+        <div class="container-search">
+          <ion-icon class="search-icon" name="search-outline"></ion-icon>
+          <input
+            class="search-text"
+            type="text"
+            placeholder="search for a country"
+            name="search"
+          />
+        </div>
+        <div class="dropdown">
+          <div class="select">
+            <span class="selected">Filter by region</span>
+          </div>
+          <ul class="menu">
+            <li class="option">America</li>
+            <li class="option">Europa</li>
+            <li class="option">Asia</li>
+            <li class="option">Africa</li>
+          </ul>
+        </div>
+      </form>
+      <section class="countries-container">
+       <div class="grid-container">
+          <div class="country-info">
+            <img src="img/related-3.jpg" />
+            <div class="countries-data">
+              <h3 class="description">Germany</h3>
+              <p class="description">
+                population: <span class="result">81,900 800</span>
+              </p>
+              <p class="description">Region:<span class="Europe"></span></p>
+              <p class="description">Capital:<span class="Berlin"></span></p>
+            </div>
+          </div> 
+        </div>
+      </section>
+      </div>
+      </main>
+    <script src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
